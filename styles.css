@@ -109,4 +109,7 @@
       width: 100%;
     }
   }
+  table.csv-data {
+    font-size: 16px; /* Adjust the value as needed */
+  }
   

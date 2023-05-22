@@ -119,8 +119,8 @@ function exportTableData() {
 // Function to convert orders array to CSV format
 function convertToCSV() {
   const header = [
-    "Order Number",
-    "Table Number",
+    "Order Number         ",
+    "Table Number           ",
     "Hours",
     "Number of People",
     "Time Added",
@@ -145,7 +145,7 @@ function convertToCSV() {
 
   const footer = [
     `Total Orders: ${totalOrders}`,
-    `Total Money: $${totalMoney}`,
+    `\nTotal Money: $${totalMoney}`,
   ];
 
   const allRows = [header, ...rows, footer];
